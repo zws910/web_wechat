@@ -21,4 +21,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login.html$', views.login),
     url(r'^check-login.html$', views.check_login),
+    url(r'^user.html$', views.user),
+    url(r'^contact-list.html$', views.contact_list),
+    url(r'^sendmsg.html$', views.send_msg),
+    url(r'^getmsg.html$', views.get_msg),
 ]
